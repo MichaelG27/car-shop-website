@@ -1,0 +1,357 @@
+ @font-face {
+  font-family:  MontserratNormal;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: MontserratBoldItallic;
+  src: url(../fonts/Montserrat-BoldItalic.ttf)
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.headerBlock {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.headerBlock_container {
+  max-width: 1200px;
+  padding: 30px 0;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.headerBlock_container a {
+  font-family: MontserratNormal;
+  color: white;
+  font-size: 40px;
+}
+.headerBlock_container_h1 {
+  font-family: MontserratBoldItallic;
+  font-size: 50px;
+}
+
+.headerBlock_container_nav a {
+  font-family: MontserratNormal;
+  color: white;
+  font-size: 40px;
+}
+.headerBlock_container_menuIcon {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+
+
+.offer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.offer_container {
+  max-width: 1200px;
+  width: 100%;
+  color: white;
+
+}
+.offer_container_up {
+  width: 100%;
+  display: flex;
+  margin-top: 90px;
+}
+.offer_container_up_maybachPicture {
+  width: 946px;
+  height: 394px;
+  margin-left: -175px;
+}
+.offer_container_up_offerBlock {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: MontserratNormal;
+}
+.offer_container_up_offerBlock_seeInventoryLink {
+  max-width: 426px;
+  height: 82px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer_container_up_offerBlock_h2 {
+  font-size: 25px;
+  font-weight: normal;
+}
+.offer_container_up_offerBlock_inInventory {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.offer_container_up_offerBlock_seeInventoryP {
+  font-size: 22px;
+  font-weight: normal;
+  color: black;
+}
+
+
+
+.offer_container_carCards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+}
+.offer_container_carCards_carCard {
+  background-color: #C4C4C4;
+  max-width: 300px;
+  /* width: 300px; */
+  height: 200px;
+  color: black;
+  padding: 10px 10px 0px 10px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.offer_container_carCards_carCard_text {
+  display: flex;
+  justify-content: space-between;
+}
+.offer_container_carCards_carCard_text_link {
+  width: 33px;
+  height: 14.53px;
+}
+.offer_container_carCards_carCard_text_name {
+  font-family: MontserratNormal;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+
+.recommendCars {
+  display: flex;
+  justify-content: center;
+}
+.recommendCars_wrapper {
+  max-width: 1200px;
+  width: 100%;
+}
+.recommendCars_wrapper_header {
+  display: flex;
+  margin-top: 15px;
+}
+.recommendCars_wrapper_header_icon {
+  width: 51px;
+  height: 51px;
+}
+.recommendCars_wrapper_header_name {
+  font-family: MontserratNormal;
+  font-size: 37px;
+  font-weight: 500;
+}
+
+
+.recommendCars_wrapper_carsTable {
+  width: 100%;
+  max-width: 1200px;
+  margin: 80px auto 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7.5% 3.33%;  
+}
+.recommendCars_wrapper_carsTable_item {
+  /* max-width: 300px; */
+  /* width: 300px; */
+  height: 200px;
+  background-color: #C4C4C4;
+  box-sizing: content-box;
+  padding: 20px 20px 0px 20px;
+}
+.recommendCars_wrapper_carsTable_item_text {
+  display: flex;
+  justify-content: space-between;
+}
+.recommendCars_wrapper_carsTable_item_text_name {
+  font-family: MontserratNormal;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+}
+.recommendCars_wrapper_carsTable_item_text_link {
+  width: 33px;
+  height: 14.53px;
+}
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.footer_wrapper {
+  max-width: 1200px;
+  width: 100%;
+  
+}
+.footer_wrapper_mainText {
+  text-align: center;
+}
+.footer_wrapper p {
+  font-size: 30px;
+  font-family: MontserratNormal;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+@media only screen and (max-width: 1250px) {
+  .offer_container_up_maybachPicture {
+    width: 788px;
+    height: 328px;
+  }
+  .offer_container_carCards_carCard {
+    width: 260px;
+    height: 170px;
+  }
+  .offer_container_up_maybachPicture {
+    margin-left: -125px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .headerBlock_container {
+    padding: 20px 20px 0px 20px;
+  }
+  .headerBlock_container_h1 {
+    font-size: 30px;
+  }
+  .headerBlock_container_nav_carsLink {
+    font-size: 30px;
+  }
+  .headerBlock_container_nav_aboutLink {
+    font-size: 30px;
+  }
+  .offer_container_up {
+    flex-direction: column;
+    align-items: center;
+  }
+  .offer_container_up_maybachPicture {
+    align-self: center;
+    max-width: 750px;
+    /* width: 100%; */
+    margin: 0;
+  }
+  .offer_container_up_offerBlock *{
+    margin: 15px;
+  }
+  .offer_container_up_offerBlock {
+    width: 75%;
+  }
+  /* .offer_container_up_offerBlock_seeInventoryLink {
+    max-width: 700px;
+    width: 100%;
+  } */
+  .offer_container_carCards {
+    margin: 110px 15px 0;
+  }
+  .offer_container_carCards_carCard {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #offer_container_carCards_carCard_PORSCHE911 {
+    display: none;
+  }
+  .offer_container_carCards {
+    justify-content: space-around;
+  }
+  .recommendCars_wrapper_carsTable {
+    grid-template-columns: auto auto;
+    padding: 15px;
+  }
+  .offer_container_carCards_carCard {
+    width: 40%;
+  }
+  .footer {
+    margin-top: 350px;
+    padding: 15px;
+  }
+  .footer_wrapper p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headerBlock_container_menuIcon {
+    display: block;
+  }
+  .headerBlock_container_nav_carsLink {
+    display: none;
+  }
+  .headerBlock_container_nav_aboutLink {
+    display: none;
+  }
+  html, body {
+    height: 100%;
+  }
+  .hamburger {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+  }
+  .hamburger a {
+    color: white;
+    display: block;
+    font-family: MontserratNormal;
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .headerBlock_container_h1 {
+    display: none;
+  }
+  .offer_container_up_maybachPicture {
+    max-width: 500px;
+    height: auto;
+  }
+  .offer_container_up_offerBlock_h2 {
+    font-size: 17px;
+  }
+  .offer_container_up_offerBlock_inInventory {
+    font-size: 17px;
+  }
+  .offer_container_up_offerBlock_seeInventoryLink {
+    font-style: 17px;
+  }
+  .offer_container_up_offerBlock_seeInventoryP {
+    font-size: 17px;
+  }
+  #offer_container_carCards_carCard_MERCEDESE {
+    display: none;
+  }
+  .offer_container_carCards_carCard {
+    width: 66%;
+  }
+  .recommendCars_wrapper_carsTable {
+    grid-template-columns: auto;
+  }
+  .footer {
+    margin-top: 1300px;
+  }
+}
